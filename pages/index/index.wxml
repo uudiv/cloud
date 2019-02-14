@@ -14,7 +14,7 @@
     </view>
   </view>
 
-  <view class="content">
+  <scroll-view class="content" scroll-y>
     <view class='slide'>
       <image src="../../images/slide.png"></image>
     </view>
@@ -32,7 +32,30 @@
         <text>云音乐新歌榜</text>
       </view>
     </view>
-  </view>
+    <view class='list'>
+      <view class="title">
+        <text>推荐歌单</text>
+      </view>
+      <view class="inner">
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一生中最爱一生中最爱</text>
+        </view>
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一生中最爱一生中最爱</text>
+        </view>
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一生中最爱一生中最爱</text>
+        </view>
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一生中最爱一生中最爱</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
 
   <view class="player">
     <view class="poster">
