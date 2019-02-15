@@ -120,3 +120,9 @@ page {
   height: 40px;
   margin: 5px;
 }
+
+
+/*  */
+.my-hover {
+  color: #f00;
+}
