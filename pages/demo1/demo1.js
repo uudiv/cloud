@@ -62,5 +62,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  tapHandle(){
+    wx.navigateTo({
+      url: '../demo2/demo2',
+    })
+    // wx.redirectTo({
+    //   url: '../demo2/demo2',
+    // })
   }
 })
