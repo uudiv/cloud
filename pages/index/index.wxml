@@ -15,9 +15,19 @@
   </view>
 
   <scroll-view class="content" scroll-y>
-    <view class='slide'>
-      <image src="../../images/slide.png"></image>
-    </view>
+
+    <swiper class='slide' indicator-dots indicator-active-color="#f00" autoplay circular interval="2000">
+      <swiper-item>
+        <image src="../../images/slide.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/slide.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../images/slide.png"></image>
+      </swiper-item>
+    </swiper>
+
     <view class="portals">
       <view class="item">
         <image src='../../images/04.png'></image>
@@ -47,11 +57,27 @@
         </view>
         <view class="item">
           <image src='../../images/poster.jpg'></image>
-          <text>一生中最爱一生中最爱一生中最爱</text>
+          <text>一生中最爱一</text>
         </view>
         <view class="item">
           <image src='../../images/poster.jpg'></image>
-          <text>一生中最爱一生中最爱一生中最爱</text>
+          <text>一生中最爱一</text>
+        </view>
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一</text>
+        </view>
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一</text>
+        </view>
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一</text>
+        </view>
+        <view class="item">
+          <image src='../../images/poster.jpg'></image>
+          <text>一生中最爱一</text>
         </view>
       </view>
     </view>
